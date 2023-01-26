@@ -1,0 +1,19 @@
+formatter: ""
+sections:
+  hide:
+    - providers
+    - modules
+    - resources
+
+content: |-
+  {{ .Header }}
+
+  ## Example
+
+  ```hcl
+  {{ include "test/main.tf" }}
+  ```
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
